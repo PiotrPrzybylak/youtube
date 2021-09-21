@@ -4,6 +4,10 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- bean definitions here -->
+    <bean id="courseRepository" class="dev.danvega.repository.CourseRepository"></bean>
+
+    <bean id="courseService" class="dev.danvega.service.CourseService">
+        <constructor-arg ref="courseRepository"/>
+    </bean>
 
 </beans>
