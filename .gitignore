@@ -1,0 +1,6 @@
+/spring-boot/hello-spring/.settings/
+/spring-boot/hello-spring/.idea/
+/spring-boot/hello-spring/target/
+/spring-boot/hello-spring/.classpath
+/spring-boot/hello-spring/.project
+*.iml
